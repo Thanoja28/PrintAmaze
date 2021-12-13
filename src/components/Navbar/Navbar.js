@@ -10,10 +10,10 @@ const Navbar = ({ toggle }) => {
                PrintAmaze
             </NavLink>
             <NavIcon>
-                <Link to="/LoginContainer">
+                <Link to="/Form">
                   <LoginUser title="Login/Register" />
                 </Link>
-                <Link to="/SearchContainer" >
+                <Link to="/Searchbar" >
                   <SearchBar />
                 </Link>
                 <AddToCart />

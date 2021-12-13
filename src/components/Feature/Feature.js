@@ -7,7 +7,7 @@ const Feature = () => {
     <FeatureContainer>
       <h1>Amazing Company</h1>
       <p>Get your logo, business cards and brochures designed by the professionals</p>
-      <Link to='/LoginContainer'>
+      <Link to='/Form'>
         <FeatureButton>Place an Order</FeatureButton>
       </Link>
     </FeatureContainer>

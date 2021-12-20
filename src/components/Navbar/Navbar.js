@@ -1,8 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Nav, NavLink, NavIcon, Bars, SearchBar, LoginUser, AddToCart} from './NavbarElements';
 import { Link } from 'react-router-dom';
+import { Modal } from '../Form/Modal'
 
 const Navbar = ({ toggle }) => {
+  const [showModal, setShowModal] = useState(false);
+
+  const openModal = () => {
+    setShowModal(prev => !prev);
+  };
+
     return (
         <>
         <Nav>
@@ -10,13 +17,16 @@ const Navbar = ({ toggle }) => {
                PrintAmaze
             </NavLink>
             <NavIcon>
-                <Link to="/Form">
-                  <LoginUser title="Login/Register" />
-                </Link>
+              
+                  <LoginUser title="Login/Register" onClick={openModal} />
+                  <Modal showModal={showModal} setShowModal={setShowModal} />
+
                 <Link to="/Searchbar" >
                   <SearchBar />
                 </Link>
-                <AddToCart />
+                <Link to="/AddToCart">
+                  <AddToCart />
+                </Link>
               <Bars onClick={toggle}/>
             </NavIcon>
         </Nav>

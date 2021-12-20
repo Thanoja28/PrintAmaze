@@ -29,7 +29,7 @@ const Header = () => {
         <HeaderItems>
           <HeaderH1>Excellent Printing world</HeaderH1>
           <HeaderP>Ready in 1 day</HeaderP>
-          <Link to='/Form'>
+          <Link to='/Modal'>
           <HeaderBtn>Place order Now</HeaderBtn>
           </Link>
         </HeaderItems>

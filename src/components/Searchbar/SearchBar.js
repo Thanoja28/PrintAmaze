@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Searchbar.css';
 import data from './data';
+import Navbar from '../Navbar/Navbar';
 
 const Searchbar = () => {
     const [Filter, setFilter] = useState('');
@@ -17,6 +18,7 @@ const Searchbar = () => {
 
     return (
         <>
+        <Navbar />
         <div>
             <input type="search" 
             name="name" placeholder="search" 

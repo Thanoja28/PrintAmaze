@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import ImgBg from '../../images/card-3.jpeg';
 
 export const HeaderContainer = styled.div`
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(${ImgBg});
   height: 100vh;
   background-position: center;

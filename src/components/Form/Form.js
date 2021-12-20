@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import './Form.css';
 import FormSignup from './FormSignup';
 import FormSuccess from './FormSuccess';
-import Navbar from '../Navbar/Navbar';
 import { useSpring, animated } from 'react-spring';
 
 const Form = () => {
@@ -20,12 +19,11 @@ const Form = () => {
   
   return (
       <>
-      <Navbar />
       <div className='form-container'>
-        <span className='close-btn'>×</span>
+        <span className='close-btn'></span>
         <div className='form-content-left'>
         <animated.div style={style1} >
-          <img className='form-img' src='https://i.stack.imgur.com/pNhWG.png' alt='webtech' />
+          <img className='form-img' src='https://www.seekpng.com/png/full/218-2184044_printing-png-image-printing.png' alt='webtech' />
         </animated.div>
         </div>
 

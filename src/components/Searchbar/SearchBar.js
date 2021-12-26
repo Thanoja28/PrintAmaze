@@ -20,7 +20,7 @@ const Searchbar = () => {
         <>
         <Navbar />
         <div>
-            <input type="search" 
+            <input className="search-input" type="search" 
             name="name" placeholder="search" 
             value={Filter} 
             onChange={searchText.bind(this)} 

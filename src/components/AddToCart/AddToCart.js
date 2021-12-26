@@ -2,9 +2,12 @@ import React from 'react'
 import ItemCard from './ItemCard';
 import './AddToCard.css';
 import data  from '../Searchbar/data';
+import Navbar from '../Navbar/Navbar';
 
 function AddToCart() {
     return (
+        <>
+        <Navbar />
         <div>
             <h1 className="heading">All Items</h1>
             {data.map((item, index) => {
@@ -13,6 +16,7 @@ function AddToCart() {
                 )
             })};
         </div>
+        </>
     )
 }
 

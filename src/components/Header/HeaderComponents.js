@@ -41,11 +41,13 @@ export const HeaderH1 = styled.h1`
 `;
 
 export const HeaderP = styled.p`
+  font-family: 'PT Sans', sans-serif;
   font-size: clamp(2rem, 2.5vw, 3rem);
   margin-bottom: 2rem;
 `;
 
 export const HeaderBtn = styled.button`
+  font-family: 'PT Sans', sans-serif;
   font-size: 1.4rem;
   padding: 1rem 4rem;
   border: none;
@@ -54,7 +56,7 @@ export const HeaderBtn = styled.button`
   color: #fff;
   transition: 0.2s ease-out;
   &:hover {
-    background: #ddb892;
+    background: rgba(221, 184, 146, 0.6);
     transition: 0.2s ease-out;
     cursor: pointer;
     color: #283618;

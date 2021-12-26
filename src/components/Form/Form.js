@@ -23,7 +23,7 @@ const Form = () => {
         <span className='close-btn'></span>
         <div className='form-content-left'>
         <animated.div style={style1} >
-          <img className='form-img' src='https://www.seekpng.com/png/full/218-2184044_printing-png-image-printing.png' alt='webtech' />
+          <img className='form-img' src='https://www.pngitem.com/pimgs/m/666-6667326_vektor-digital-print-hd-png-download.png' alt='webtech' />
         </animated.div>
         </div>
 

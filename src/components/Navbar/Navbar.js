@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Nav, NavLink, NavIcon, Bars, SearchBar, LoginUser, AddToCart} from './NavbarElements';
 import { Link } from 'react-router-dom';
-import { Modal } from '../Form/Modal'
+import { Modal } from '../Form/Modal';
 
 const Navbar = ({ toggle }) => {
   const [showModal, setShowModal] = useState(false);

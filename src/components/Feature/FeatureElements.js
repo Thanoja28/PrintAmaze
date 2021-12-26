@@ -24,6 +24,7 @@ export const FeatureContainer = styled.div`
   }
 `;
 export const FeatureButton = styled.button`
+  font-family: 'PT Sans', sans-serif;
   font-size: 1.4rem;
   padding: 0.6rem 3rem;
   border: 4px solid #283618;

@@ -3,30 +3,20 @@ import validate from './validateInfo';
 import useForm from './useForm';
 import './Form.css';
 import { Link } from 'react-router-dom';
-import { animated, useSpring} from 'react-spring';
 
 const FormSignup = ({ submitForm }) => {
   const { handleChange, handleSubmit, values, errors } = useForm(
     submitForm,
     validate
   );
-
-  const style2 = useSpring({
-      from: {opacity: 0, marginLeft: -400 },
-      to: { opacity: 1, marginLeft: 0 },
-      config: {duration: 2000 }
-  })
   
   return (
     <div className='form-content-right'>
       <form onSubmit={handleSubmit} className='form' noValidate>
-      <animated.div style={style2}>
         <h1>
           To Place an Order, Please Register
         </h1>
-      </animated.div>
         <div className='form-inputs'>
-          <label className='form-label'>Username</label>
           <input
             className='form-input'
             type='text'
@@ -38,7 +28,6 @@ const FormSignup = ({ submitForm }) => {
           {errors.username && <p>{errors.username}</p>}
         </div>
         <div className='form-inputs'>
-          <label className='form-label'>Email</label>
           <input
             className='form-input'
             type='email'
@@ -50,7 +39,6 @@ const FormSignup = ({ submitForm }) => {
           {errors.email && <p>{errors.email}</p>}
         </div>
         <div className='form-inputs'>
-          <label className='form-label'>Password</label>
           <input
             className='form-input'
             type='password'
@@ -62,7 +50,6 @@ const FormSignup = ({ submitForm }) => {
           {errors.password && <p>{errors.password}</p>}
         </div>
         <div className='form-inputs'>
-          <label className='form-label'>Confirm Password</label>
           <input
             className='form-input'
             type='password'

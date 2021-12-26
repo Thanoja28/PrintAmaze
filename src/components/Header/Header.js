@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Navbar from '../Navbar/Navbar';
 import Sidebar from '../Sidebar/Sidebar';
+import Navbar1 from '../Navbar/Navbar1';
 
 import {
   HeaderContainer,
@@ -22,6 +23,7 @@ const Header = () => {
 
   return (
     <>
+    <Navbar1 />
     <HeaderContainer>
       <Navbar toggle={toggle} />
       <Sidebar isOpen={isOpen} toggle={toggle} />

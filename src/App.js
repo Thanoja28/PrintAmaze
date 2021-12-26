@@ -10,6 +10,7 @@ import  Searchbar  from './components/Searchbar/Searchbar';
 import AddToCart  from './components/AddToCart/AddToCart';
 import { CartProvider } from 'react-use-cart';
 import Cart from './components/AddToCart/Cart';
+import './App.css';
 
 
 

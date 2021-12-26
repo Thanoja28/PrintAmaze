@@ -6,9 +6,10 @@ import { BiUser } from 'react-icons/bi';
 import { BsCart4 } from 'react-icons/bs';
 
 export const Nav = styled.nav`
-    background: #000;
+    background: rgba(0, 0, 0, 0.4);
     height: 80px;
     display: flex;
+    font-family: 'PT Sans', sans-serif;
     font-weight: 700;
     padding-left: 8px;
     position: fixed;
@@ -18,6 +19,7 @@ export const Nav = styled.nav`
 `;
 
 export const NavLink = styled(Link)`
+    font-family: 'PT Sans', sans-serif;
     color: #fff;
     font-size: 2rem;
     display: flex;

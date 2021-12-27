@@ -54,13 +54,13 @@ window.addEventListener('resize', showButton);
                         </li>
 
                         <li className = "nav-item" >
-                        <Link to = '/projects' className = "nav-links-mobile" onClick = {closeMobileMenu} >
-                            Projects
+                        <Link to = '/projects' className = "nav-links" onClick = {closeMobileMenu} >
+                            Services
                         </Link>
                         </li>
                     </ul>
                     {Button && <Button ButtonStyle ="btn--outline">
-                        Projects
+                        Services
                     </Button> }
                 </div>
             </nav>

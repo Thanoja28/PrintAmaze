@@ -1,9 +1,8 @@
 import styled from 'styled-components';
-import ImgBg from '../../images/card-3.jpeg';
 
 export const HeaderContainer = styled.div`
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(${ImgBg});
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  url(https://www.paradigmgraphics.com/wp-content/uploads/2020/10/Printing-Services-home.jpg);
   height: 100vh;
   background-position: center;
   background-size: cover;
@@ -52,13 +51,14 @@ export const HeaderBtn = styled.button`
   padding: 1rem 4rem;
   border: none;
   background: transparent;
-  border: 5px solid #283618;
+  border: 5px solid #926c15;
   color: #fff;
+  font-weight: 500;
   transition: 0.2s ease-out;
   &:hover {
-    background: rgba(221, 184, 146, 0.6);
+    background: rgba(255, 255, 255, 0.8);
     transition: 0.2s ease-out;
     cursor: pointer;
-    color: #283618;
+    color: #926c15;
   }
 `;

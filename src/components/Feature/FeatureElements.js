@@ -1,11 +1,8 @@
 import styled from 'styled-components';
-import FeaturePic from '../../images/featured3.webp';
 
 export const FeatureContainer = styled.div`
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)),
-    url(${FeaturePic});
   height: 100vh;
-  max-height: 500px;
+  max-height: 300px;
   background-position: center;
   background-size: cover;
   display: flex;
@@ -27,8 +24,8 @@ export const FeatureButton = styled.button`
   font-family: 'PT Sans', sans-serif;
   font-size: 1.4rem;
   padding: 0.6rem 3rem;
-  border: 4px solid #283618;
-  background: #283618;
+  border: 4px solid #926c15;
+  background: #926c15;
   color: #fff;
   transition: 0.2s ease-out;
   &:hover {
@@ -37,6 +34,8 @@ export const FeatureButton = styled.button`
     cursor: pointer;
   }
 `;
+
+
 
 
 

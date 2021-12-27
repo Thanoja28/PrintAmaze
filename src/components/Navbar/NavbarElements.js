@@ -19,6 +19,7 @@ export const Nav = styled.nav`
 `;
 
 export const NavLink = styled(Link)`
+    margin-top: 16px;
     font-family: 'PT Sans', sans-serif;
     color: #fff;
     font-size: 2rem;

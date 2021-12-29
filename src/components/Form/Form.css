@@ -29,7 +29,6 @@
   }
 
   .form-img {
-    opacity: 0.6;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -117,18 +116,17 @@
     height: 50px;
     margin-top: 10px;
     border-radius: 2px;
-    background: linear-gradient(90deg, rgba(40,54,24,1) 45%, rgba(221,184,146,0.5704656862745099) 100%, rgba(221,184,146,0.7301295518207283) 100%);
     outline: none;
     border: none;
     color: #fff;
     font-size: 1rem;
+    background-color: #926c15;
   }
   
   .form-input-btn:hover {
     cursor: pointer;
-    background: #ddb892;
+    background: #283618;
     transition: all 0.4s ease-out;
-    color: #283618;
   }
   
   .form-input-login {

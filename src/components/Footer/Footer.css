@@ -1,0 +1,9 @@
+.footer-content {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 24px;
+    padding: 24px;
+    background: rgba(187, 222, 251, 0.1);
+
+}

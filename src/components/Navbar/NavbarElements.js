@@ -28,7 +28,7 @@ export const NavLink = styled(Link)`
     text-decoration: none;
     cursor: pointer;
     &:hover {
-      color: #ddb892;
+      color: #d4d700;
       transform: translate(1px, 1px);
     }
 
@@ -51,7 +51,7 @@ export const Bars = styled(FaForumbee)`
   font-size: 2rem;
   transform: translate(-50%, 50%);
   &:hover {
-    color: #ddb892;
+    color: #d4d700;
   }
 `;
 
@@ -61,7 +61,7 @@ export const SearchBar = styled(BsSearch)`
   padding: 0 10px;
   color:#fff;
   &:hover {
-    color: #ddb892;
+    color: #d4d700;
   }
 `;
 
@@ -71,7 +71,7 @@ export const LoginUser = styled(BiUser)`
   padding: 0 10px;
   color:#fff;
   &:hover {
-    color: #ddb892;
+    color: #d4d700;
     z-index: 1;
   }
 `;
@@ -82,7 +82,7 @@ export const AddToCart = styled(BsCart4)`
   padding: 0 10px;
   color: #fff;
   &:hover {
-    color: #ddb892;
+    color: #d4d700;
   }
 `;
 

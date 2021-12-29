@@ -13,8 +13,8 @@ function Home() {
         <Header/>
         <Products heading='Choose your Favorite' data={productData} />
         <Products heading='Choose your Design' data={productDataTwo} />
-        <Carousel />
         <Team />
+        <Carousel />
         <Feature />
         <Footer />
     </React.Fragment> 

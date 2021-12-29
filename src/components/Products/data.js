@@ -13,7 +13,7 @@ export const productData = [
     desc:
       'Professional, high quality marketing brochures that are carefully crafted to be the perfect introduction to YOUR business.',
     price: '£10.00',
-    button: 'Add to Cart'
+    button: 'More Info'
   },
   {
     img: product2,
@@ -22,7 +22,7 @@ export const productData = [
     desc:
       'Envelope design stock photos and images available, or search for letter or envelopes to find more great stock photos.',
     price: '£12.40',
-    button: 'Add to Cart'
+    button: 'More Info'
   },
   {
     img: product3,
@@ -31,7 +31,7 @@ export const productData = [
     desc:
       'Sizes. Paper stocks. Finishes. Now you can create a card as unique as you are designing the awy.',
     price: '£16.00',
-    button: 'Add to Cart'
+    button: 'More Info'
   }
 ];
 
@@ -43,7 +43,7 @@ export const productDataTwo = [
     desc: 
       'Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font',
     price: '£8.99',
-    button: 'Add to Cart'
+    button: 'More Info'
   },
   {
     img: design2,
@@ -52,7 +52,7 @@ export const productDataTwo = [
     desc:
       'Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font',
     price: '£11.99',
-    button: 'Add to Cart'
+    button: 'More Info'
   },
   {
     img: design3,
@@ -61,6 +61,6 @@ export const productDataTwo = [
     desc:
       'Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font',
     price: '£7.99',
-    button: 'Add to Cart'
+    button: 'More Info'
   }
 ];

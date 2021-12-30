@@ -2,7 +2,7 @@ import React from 'react'
 import ItemCard from './ItemCard';
 import './AddToCard.css';
 import data  from '../Searchbar/data';
-import Navbar from '../Navbar/Navbar';
+import Navbar from '../Navbar/Navbar22';
 
 function AddToCart() {
     return (

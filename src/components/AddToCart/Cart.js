@@ -1,7 +1,7 @@
 import React from 'react';
 import { useCart } from 'react-use-cart';
 import './Cart.css';
-import Navbar from  '../Navbar/Navbar';
+import Navbar from  '../Navbar/Navbar22';
 
 function Cart() {
     const {

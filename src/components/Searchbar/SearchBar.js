@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Searchbar.css';
 import data from './data';
-import Navbar from '../Navbar/Navbar';
+import Navbar from '../Navbar/Navbar22';
 
 const Searchbar = () => {
     const [Filter, setFilter] = useState('');

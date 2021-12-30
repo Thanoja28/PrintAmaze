@@ -10,6 +10,7 @@ function Team() {
         <>
         <h3 style={{textAlign:"center", fontStyle:"16px"}}>Team Members</h3>
         <div className="card-container">
+
         <div class="card">
             <img className="img1" src={profile} alt="Avatar" style={{width:"100%"}} />
             <div class="container">

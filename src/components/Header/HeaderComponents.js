@@ -1,10 +1,10 @@
 import styled from 'styled-components';
 
 export const HeaderContainer = styled.div`
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-  url(https://www.paradigmgraphics.com/wp-content/uploads/2020/10/Printing-Services-home.jpg);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+  url(https://images.pexels.com/photos/2983401/pexels-photo-2983401.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
   height: 100vh;
-  background-position: center;
+  background-position: center center;
   background-size: cover;
 `;
 
@@ -33,32 +33,32 @@ export const HeaderItems = styled.div`
 `;
 
 export const HeaderH1 = styled.h1`
-  font-size: clamp(2.5rem, 10vw, 5rem);
+  font-size: clamp(1.5rem, 7vw, 4rem);
   margin-bottom: 1rem;
   filter: drop-shadow(0px 0px 10px rgba(0,0,0,.5));
   letter-spacing: 3px;
 `;
 
 export const HeaderP = styled.p`
-  font-family: 'PT Sans', sans-serif;
-  font-size: clamp(2rem, 2.5vw, 3rem);
+  font-size: clamp(1rem, 1.5vw, 2rem);
   margin-bottom: 2rem;
 `;
 
 export const HeaderBtn = styled.button`
-  font-family: 'PT Sans', sans-serif;
   font-size: 1.4rem;
   padding: 1rem 4rem;
   border: none;
-  background: transparent;
-  border: 5px solid #926c15;
-  color: #fff;
+  background: rgba(255, 255, 255, 0.8);
+  border: 2px solid #926c15;
+  border-radius: 40px;
+  color: #926c15;
   font-weight: 500;
   transition: 0.2s ease-out;
   &:hover {
-    background: rgba(255, 255, 255, 0.8);
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    background: #926c15;
     transition: 0.2s ease-out;
     cursor: pointer;
-    color: #926c15;
+    color: rgba(255, 255, 255, 0.8);
   }
 `;

@@ -24,7 +24,7 @@ const Footer = () => {
               <div>
                 <p>Our fantastic team of professional designers is here to help.
 
-                    committed to producing high-quality but low-cost goods
+                    Committed to producing high-quality but low-cost goods
 
                     graphic design merchandise</p><br />
               </div>
@@ -34,7 +34,7 @@ const Footer = () => {
                 <p>Saturday - Sunday: 12:00 p.m.–5:00 p.m</p>
               </div>
               <div><br />
-                <h3>CUSTOMER SERVICE</h3><br />
+                <h4>CUSTOMER SERVICE</h4><br />
                 <p>
                  Help Centre
                 </p>
@@ -58,7 +58,7 @@ const Footer = () => {
               <div className="footer-bg"><br />
                 <p>Copyright © 2021 ThanoInnovate</p>
                 <p>All rights reserved</p>
-                <p>Design by: Thanojainnovate.com</p>
+                <p>Design by: ThanojaInnovate.com</p>
               </div>
               </div>
           </SocialMediaWrap>

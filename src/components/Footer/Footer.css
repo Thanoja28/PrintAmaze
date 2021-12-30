@@ -4,6 +4,9 @@
     justify-content: flex-start;
     margin: 24px;
     padding: 24px;
-    background: rgba(187, 222, 251, 0.1);
+    background: #a47e1b; 
+}
 
+.footer-bg {
+    text-align: center;
 }

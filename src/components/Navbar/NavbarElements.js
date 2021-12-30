@@ -9,7 +9,6 @@ export const Nav = styled.nav`
     background: rgba(0, 0, 0, 0.4);
     height: 80px;
     display: flex;
-    font-family: 'PT Sans', sans-serif;
     font-weight: 700;
     padding-left: 8px;
     position: fixed;
@@ -20,7 +19,6 @@ export const Nav = styled.nav`
 
 export const NavLink = styled(Link)`
     margin-top: 16px;
-    font-family: 'PT Sans', sans-serif;
     color: #fff;
     font-size: 2rem;
     display: flex;

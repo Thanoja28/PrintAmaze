@@ -14,7 +14,6 @@
     animation: scroll 70s linear infinite;
     background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
     url(https://images.pexels.com/photos/7014415/pexels-photo-7014415.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
-  
     color: #eee;
     height: 100vh;
     min-width: 360px;

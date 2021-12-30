@@ -17,21 +17,20 @@
 }
 
 .navbar {
-    font-family: 'Open Sans';
-    position: fixed;
-    background: rgba(0, 0, 0, 0.4);;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
     height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
-    position: sticky;
-    top: 0;
+    position: fixed;
+    top: 40px;
     z-index: 999;
   }
   
   .navbar-container {
-    position: sticky;
+    /* position: sticky; */
     display: flex;
     justify-content: center;
     align-items: center;

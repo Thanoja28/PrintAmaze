@@ -32,7 +32,6 @@ export const ProductImg = styled.img`
   `;
 
 export const ProductsHeading = styled.h1`
-  font-family: 'PT Sans', sans-serif;
   font-size: clamp(2rem, 2.5vw, 3rem);
   text-transform: uppercase;
   text-align: center;
@@ -40,7 +39,6 @@ export const ProductsHeading = styled.h1`
 `;
 
 export const ProductTitle = styled.h2`
-  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 1.5rem;
 `;

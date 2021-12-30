@@ -67,7 +67,6 @@ window.addEventListener('resize', showButton);
                         </li>
                     </ul>
                     {Button && <Button ButtonStyle ="btn--outline">
-                        Services
                     </Button> }
                 </div>
             </nav>

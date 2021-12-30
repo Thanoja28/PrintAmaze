@@ -1,20 +1,12 @@
 import React from 'react';
 import './Footer.css';
-import {
-  FaFacebook,
-  FaInstagram,
-  FaYoutube,
-  FaTwitter,
-  FaLinkedin
-} from 'react-icons/fa';
+import { Link } from 'react-router-dom';
+import '../../components/Navbar/Navbar.css';
 import {
   FooterContainer,
   FooterWrap,
   SocialMedia,
-  SocialMediaWrap,
-  SocialLogo,
-  SocialIcons,
-  SocialIconLink
+  SocialMediaWrap
 } from './FooterElements';
 
 const Footer = () => {
@@ -23,14 +15,18 @@ const Footer = () => {
       <FooterWrap>
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo to='/'>PrintAmaze</SocialLogo>
+           
+            <Link to = '/' className= "navbar-logo">
+              <i className="fab fa-artstation"></i>
+            </Link>
+
             <div className="footer-content">
               <div>
                 <p>Our fantastic team of professional designers is here to help.
 
-                committed to producing high-quality but low-cost goods
+                    committed to producing high-quality but low-cost goods
 
-                graphic design merchandise</p><br />
+                    graphic design merchandise</p><br />
               </div>
               <div>
                 <h4>SERVICE SUPPORT</h4><br />
@@ -40,23 +36,24 @@ const Footer = () => {
               <div><br />
                 <h3>CUSTOMER SERVICE</h3><br />
                 <p>
-                Help Centre
+                 Help Centre
                 </p>
                 <p>
-                Delivery Offer
+                 Delivery Offer
                 </p>
                 <p>
-                Returns Policy
+                 Returns Policy
                 </p>
                 <p>
-                Product Recalls
+                 Product Recalls
                 </p>
                 <p>
-                Scam Warnings
+                 Scam Warnings
                 </p>
                 <p>
-                Track Your Order
-                </p>
+                 Track Your Order
+                </p><br />
+                <hr />
               </div>
               <div className="footer-bg"><br />
                 <p>Copyright © 2021 ThanoInnovate</p>
@@ -64,28 +61,6 @@ const Footer = () => {
                 <p>Design by: Thanojainnovate.com</p>
               </div>
               </div>
-            <SocialIcons>
-              <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
-                <FaFacebook />
-              </SocialIconLink>
-              <SocialIconLink href='/' target='_blank' aria-label='Instagram'>
-                <FaInstagram />
-              </SocialIconLink>
-              <SocialIconLink href='/' target='_blank' aria-label='Youtube'>
-                <FaYoutube />
-              </SocialIconLink>
-              <SocialIconLink
-                href='//www.twitter.com/briandesignz'
-                target='_blank'
-                aria-label='Twitter'
-                rel='noopener noreferrer'
-              >
-                <FaTwitter />
-              </SocialIconLink>
-              <SocialIconLink href='/' target='_blank' aria-label='Linkedin'>
-                <FaLinkedin />
-              </SocialIconLink>
-            </SocialIcons>
           </SocialMediaWrap>
         </SocialMedia>
       </FooterWrap>

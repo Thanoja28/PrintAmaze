@@ -71,7 +71,6 @@ export const SidebarRoute = styled(Link)`
   white-space: nowrap;
   padding: 16px 64px;
   color: #fff;
-  font-family: 'PT Sans', sans-serif;
   font-size: 18px;
   outline: none;
   border: 4px solid #283618;

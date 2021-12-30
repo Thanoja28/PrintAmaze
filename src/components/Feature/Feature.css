@@ -12,7 +12,9 @@
 
   .wrapper {
     animation: scroll 70s linear infinite;
-    background: url("https://www.parallaxdigital.com/manage/wp-content/uploads/2018/08/Con-Room-953x521-e1566502875807.jpg"), #111111;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+    url(https://images.pexels.com/photos/7014415/pexels-photo-7014415.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  
     color: #eee;
     height: 100vh;
     min-width: 360px;

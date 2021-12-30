@@ -29,7 +29,7 @@ function Team() {
         <div className="card">
             <img className="img" src={pro1} alt="Avatar" style={{width:"100%"}} />
             <div className="container">
-            <h4><b>Thajeev</b></h4> 
+            <h4 className="h4"><b>Thajeev</b></h4> 
             <p className="para">Network Engineer</p>
             <p>
              We have many combined years of experience in this sector. 

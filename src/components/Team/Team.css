@@ -7,7 +7,6 @@
   position: initial !important;
   padding: 12px;
   flex-direction: column;
-  flex-wrap: wrap;
   background: #a47e1b;
   margin: 16px;
 }
@@ -23,11 +22,11 @@
 }
 
 .img {
-  width: 250px;
+  width: 150px;
   height: 200px;
 }
 .img1 {
-  width: 200px;
+  width: 100px;
   height: 200px;
 }
 
@@ -37,7 +36,7 @@
   margin: 4px;
 }
 
-h4{
+.h4{
   color: #fff;
   font-weight: 600;
   margin: 4px;
@@ -45,7 +44,8 @@ h4{
 
 .h3 {
   text-align: center;
-  color: #fff;
+  color: #76520e;
+  font-weight: 700;
   margin: 16px;
 }
 

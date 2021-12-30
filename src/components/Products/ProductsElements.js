@@ -64,13 +64,14 @@ export const ProductPrice = styled.p`
 export const ProductButton = styled.button`
   font-size: 1rem;
   padding: 1rem 4rem;
-  border: none;
+  border: 2px solid #76520e;
   background: #e9ecef;
-  color: #fca311;
+  color: #76520e;
   transition: 0.2 ease-out;
   font-weight: 700;
   &:hover {
-    background: #fca311;
+    background: #76520e;
+    border: 2px solid #e9ecef;
     transform scale(1.03);
     transition: 0.4s ease-out;
     cursor: pointer;

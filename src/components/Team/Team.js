@@ -54,7 +54,6 @@ function Team() {
             <p className="para">Game Engineer</p> 
             </div>
         </div>
-
         </div>
         </>
     )

@@ -11,7 +11,7 @@ export const HeaderContainer = styled.div`
 export const HeaderContent = styled.div`
   height: calc(100vh - 80px);
   max-height: 100%;
-  padding: 0rem calc((113vw - 1300px) / 2);
+  padding: 0 calc((113vw - 1300px) / 2);
 `;
 
 export const HeaderItems = styled.div`
@@ -22,7 +22,7 @@ export const HeaderItems = styled.div`
   height: 100vh;
   max-height: 100%;
   padding: 0 2rem;
-  width: 650px;
+  width: 500px;
   color: #fff;
   text-transform: uppercase;
   line-height: 1;

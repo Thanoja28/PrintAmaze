@@ -7,6 +7,8 @@
   color: #fff;
   padding: 18px;
   cursor: pointer;
+  position: fixed;
+  z-index: 1;
 }
 
 .social-icons i {
@@ -28,8 +30,8 @@
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
-    position: sticky;
-    top: 40px;
+    position: fixed;
+    top: 60px;
     z-index: 999;
   }
   

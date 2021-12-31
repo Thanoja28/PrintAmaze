@@ -3,7 +3,6 @@ import styled from 'styled-components';
 export const ProductsContainer = styled.div`
   min-height: 100vh;
   padding: 5rem calc((100vw - 1300px) / 2);
-  background: #000;
   color: #fff;
 `;
 
@@ -15,19 +14,18 @@ export const ProductWrapper = styled.div`
 `;
 
 export const ProductCard = styled.div`
-  margin: 0 2rem;
+  margin: 2rem;
   line-height: 2;
   width: 300px;
+  background-color: rgba(118, 82, 14, 0.8);
 `;
 
 export const ProductImg = styled.img`
   height: 300px;
   min-width: 300px;
   max-width: 100%;
-  box-shadow: rgba(222, 226, 230, 0.4) -5px 5px, rgba(222, 226, 230, 0.4) -10px 10px, rgba(222, 226, 230, 0.4) -15px 15px, rgba(222, 226, 230, 0.1) -20px 20px, rgba(222, 226, 230, 0.05) -25px 25px;;
   &:hover {
-    opacity:0.3;
-  }
+    cursor: pointer;
   }
   `;
 
@@ -65,6 +63,7 @@ export const ProductButton = styled.button`
   font-size: 1rem;
   padding: 1rem 4rem;
   border: 2px solid #76520e;
+  border-radius: 40px;
   background: #e9ecef;
   color: #76520e;
   transition: 0.2 ease-out;

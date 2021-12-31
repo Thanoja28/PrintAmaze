@@ -9,6 +9,7 @@ import pro4 from '../../images/sinthu.jpg';
 
 
 
+
 function Team() {
     return (
         <>
@@ -41,7 +42,7 @@ function Team() {
         <div className="card">
             <img className="img" src={pro2} alt="Avatar" style={{width:"100%"}} />
             <div className="container">
-            <h4><b>Ramanan</b></h4> 
+            <h4 className="h4"><b>Ramanan</b></h4> 
             <p className="para">Software Engineer</p>
             <p>
              We have many combined years of experience in this sector. 
@@ -53,7 +54,7 @@ function Team() {
         <div className="card">
             <img className="img" src={pro3} alt="Avatar" style={{width:"100%"}} />
             <div className="container">
-            <h4><b>Thatchayini</b></h4> 
+            <h4 className="h4"><b>Thatchayini</b></h4> 
             <p className="para">Software Engineer</p>
             <p>
              We have many combined years of experience in this sector. 
@@ -65,7 +66,7 @@ function Team() {
         <div className="card">
             <img className="img" src={pro4} alt="Avatar" style={{width:"100%"}} />
             <div className="container">
-            <h4><b>Sinthusan</b></h4> 
+            <h4 className="h4"><b>Sinthusan</b></h4> 
             <p className="para">Game Engineer</p> 
             <p>
                We have many combined years of experience in this sector. 

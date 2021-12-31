@@ -4,14 +4,21 @@
     justify-content: flex-start;
     margin: 24px;
     padding: 24px;
-    background: #a47e1b; 
+    background-color: rgba(118, 82, 14, 0.6);
+
 }
 
 .footer-bg {
     text-align: center;
+    letter-spacing: 1px;
 }
 
-h4 {
-    color: #76520e;
+.head4 {
+    color: #000;
     font-weight: 800;
+    letter-spacing: 1px;
+}
+
+p {
+    letter-spacing: 1px;
 }

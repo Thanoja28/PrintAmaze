@@ -7,7 +7,7 @@
   position: initial !important;
   padding: 12px;
   flex-direction: column;
-  background: #a47e1b;
+  background: rgba(229, 229, 229, 0.2); 
   margin: 16px;
 }
 
@@ -16,8 +16,7 @@
 }
 
 .container {
-  padding: 16px;
-  color: #76520e;
+  padding: px;
   font-weight: 700;
 }
 
@@ -44,10 +43,13 @@
 
 .h3 {
   text-align: center;
-  color: #76520e;
+  color: #fff;
   font-weight: 700;
   margin: 16px;
 }
+
+
+
 
   
 

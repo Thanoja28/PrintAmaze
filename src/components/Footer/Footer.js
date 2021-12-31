@@ -29,12 +29,12 @@ const Footer = () => {
                     graphic design merchandise</p><br />
               </div>
               <div>
-                <h4>SERVICE SUPPORT</h4><br />
+                <h4 className="head4">SERVICE SUPPORT</h4><br />
                 <p>Tuesday - Thursday: 8:00 a.m.–22:00 p.m</p>
                 <p>Saturday - Sunday: 12:00 p.m.–5:00 p.m</p>
               </div>
               <div><br />
-                <h4>CUSTOMER SERVICE</h4><br />
+                <h4 className="head4">CUSTOMER SERVICE</h4><br />
                 <p>
                  Help Centre
                 </p>

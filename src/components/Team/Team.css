@@ -5,10 +5,11 @@
 
 .card {
   position: initial !important;
-  padding: 12px;
+  padding: 6px;
   flex-direction: column;
-  background: rgba(229, 229, 229, 0.2); 
+  background: rgba(118, 82, 14, 0.8);
   margin: 16px;
+  color: #fff;
 }
 
 .card:hover {
@@ -16,8 +17,14 @@
 }
 
 .container {
-  padding: px;
+  padding: 10px;
   font-weight: 700;
+  transition: 2s;
+}
+
+.container:hover {
+  background: rgba(255, 255, 255, 0.6);
+  color: rgba(118, 82, 14, 0.8);
 }
 
 .img {
@@ -30,13 +37,16 @@
 }
 
 .para {
-  color: #fff;
   font-weight: 600;
   margin: 4px;
+  font-style: italic;
+}
+
+.para1 {
+  font-family: 'Alegreya Sans', sans-serif;
 }
 
 .h4{
-  color: #fff;
   font-weight: 600;
   margin: 4px;
 }
@@ -44,7 +54,7 @@
 .h3 {
   text-align: center;
   color: #fff;
-  font-weight: 700;
+  font-weight: 900;
   margin: 16px;
 }
 

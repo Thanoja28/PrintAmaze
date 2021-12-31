@@ -22,7 +22,7 @@ function Team() {
             <p className="para">Web Developer</p>
             <p>
              We have many combined years of experience in this sector. 
-             Trusted by clients from different corners of the globe, we pride ourselves on our customer service. . 
+             Trusted by clients from different corners of the globe, we pride ourselves on our customer service.
             </p> 
             </div>
         </div>
@@ -32,9 +32,9 @@ function Team() {
             <div className="container">
             <h4 className="h4"><b>Thajeev</b></h4> 
             <p className="para">Network Engineer</p>
-            <p>
+            <p className="para1">
              We have many combined years of experience in this sector. 
-             Trusted by clients from different corners of the globe, we pride ourselves on our customer service. . 
+             Trusted by clients from different corners of the globe, we pride ourselves on our customer service.
             </p> 
             </div>
         </div>
@@ -44,9 +44,9 @@ function Team() {
             <div className="container">
             <h4 className="h4"><b>Ramanan</b></h4> 
             <p className="para">Software Engineer</p>
-            <p>
+            <p className="para1">
              We have many combined years of experience in this sector. 
-             Trusted by clients from different corners of the globe, we pride ourselves on our customer service. . 
+             Trusted by clients from different corners of the globe, we pride ourselves on our customer service. 
             </p> 
             </div>
         </div>
@@ -56,9 +56,9 @@ function Team() {
             <div className="container">
             <h4 className="h4"><b>Thatchayini</b></h4> 
             <p className="para">Software Engineer</p>
-            <p>
+            <p className="para1">
              We have many combined years of experience in this sector. 
-             Trusted by clients from different corners of the globe, we pride ourselves on our customer service. . 
+             Trusted by clients from different corners of the globe, we pride ourselves on our customer service.
             </p>
             </div>
         </div>
@@ -68,9 +68,9 @@ function Team() {
             <div className="container">
             <h4 className="h4"><b>Sinthusan</b></h4> 
             <p className="para">Game Engineer</p> 
-            <p>
+            <p className="para1">
                We have many combined years of experience in this sector. 
-               Trusted by clients from different corners of the globe, we pride ourselves on our customer service. . 
+               Trusted by clients from different corners of the globe, we pride ourselves on our customer service.
             </p>
             </div>
         </div>

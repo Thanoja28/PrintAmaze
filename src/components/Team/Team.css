@@ -7,7 +7,8 @@
   position: initial !important;
   padding: 6px;
   flex-direction: column;
-  background: rgba(118, 82, 14, 0.8);
+  /* background: rgba(118, 82, 14, 0.8); */
+  background:rgba(225, 225, 225, 0.1);
   margin: 16px;
   color: #fff;
 }

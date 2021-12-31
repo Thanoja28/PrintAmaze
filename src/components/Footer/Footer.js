@@ -53,8 +53,15 @@ const Footer = () => {
                 <p>
                  Track Your Order
                 </p><br />
-                <hr />
               </div>
+              <h4>FOLLOW US</h4><br />
+              <div className="social-icons">
+                <i className="fab fa-facebook"></i>
+                <i className="fab fa-instagram"></i>
+                <i className="fab fa-linkedin"></i>
+                <i class="fab fa-twitter"></i>
+              </div><br />
+              <hr />
               <div className="footer-bg"><br />
                 <p>Copyright © 2021 ThanoInnovate</p>
                 <p>All rights reserved</p>

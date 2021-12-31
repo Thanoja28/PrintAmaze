@@ -17,7 +17,7 @@ export const ProductCard = styled.div`
   margin: 2rem;
   line-height: 2;
   width: 300px;
-  background-color: rgba(118, 82, 14, 0.8);
+  background:rgba(225, 225, 225, 0.1);
 `;
 
 export const ProductImg = styled.img`

@@ -20,7 +20,7 @@ function Team() {
             <div className="container">
             <h4><b>Thanoja</b></h4> 
             <p className="para">Web Developer</p>
-            <p>
+            <p className="para1">
              We have many combined years of experience in this sector. 
              Trusted by clients from different corners of the globe, we pride ourselves on our customer service.
             </p> 

@@ -1,0 +1,17 @@
+@media screen and (max-width: 540px) {
+
+    .h1{
+        font-size: 50px !important;
+     width: 350px;
+     text-align: center;
+    }
+
+    .p{
+     display: none;
+    }
+
+    button {
+        display: none;
+    }
+
+  } 

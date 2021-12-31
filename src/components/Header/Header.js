@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Navbar from '../Navbar/Navbar';
 import Sidebar from '../Sidebar/Sidebar';
+import './header.css';
 
 import {
   HeaderContainer,
@@ -27,8 +28,8 @@ const Header = () => {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <HeaderContent>
         <HeaderItems>
-          <HeaderH1>Excellent Printing world</HeaderH1>
-          <HeaderP>Design helps us to stand out</HeaderP>
+          <HeaderH1 className="h1">Excellent Printing world</HeaderH1>
+          <HeaderP className="p">Design helps us to stand out</HeaderP>
           <Link to='/Modal'>
           <HeaderBtn>Place order Now</HeaderBtn>
           </Link>

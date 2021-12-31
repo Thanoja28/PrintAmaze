@@ -1,4 +1,5 @@
 .topbar-nav {
+  width: 100%;
   background: rgba(0, 0, 0, 0.4);
   border-bottom: 1px solid rgba(255, 255, 255, 0.6);
   display: flex;
@@ -30,7 +31,7 @@
   }
   
   .navbar-container {
-    /* position: sticky; */
+    position: sticky;
     display: flex;
     justify-content: center;
     align-items: center;

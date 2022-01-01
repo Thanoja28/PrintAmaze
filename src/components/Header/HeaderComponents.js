@@ -35,8 +35,9 @@ export const HeaderItems = styled.div`
 export const HeaderH1 = styled.h1`
   font-size: clamp(2rem, 7vw, 4rem);
   margin-bottom: 1rem;
-  filter: drop-shadow(0px 0px 10px rgba(0,0,0,.5));
+  filter: drop-shadow(0px 0px 10px rgba(0,0,0, 0.4));
   letter-spacing: 3px;
+  margin-top: 22rem;
 `;
 
 export const HeaderP = styled.p`

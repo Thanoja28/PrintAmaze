@@ -3,6 +3,10 @@ import Navbar from '../Navbar/Navbar';
 import Sidebar from '../Sidebar/Sidebar';
 import './header.css';
 
+
+
+
+
 import {
   HeaderContainer,
   HeaderContent,
@@ -23,7 +27,7 @@ const Header = () => {
 
   return (
     <>
-    <HeaderContainer>
+    <HeaderContainer className="HeaderContainer">
       <Navbar toggle={toggle} />
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <HeaderContent>
@@ -31,7 +35,7 @@ const Header = () => {
           <HeaderH1 className="h1">Excellent Printing world</HeaderH1>
           <HeaderP className="p">Design helps us to stand out</HeaderP>
           <Link to='/Modal'>
-          <HeaderBtn>Place order Now</HeaderBtn>
+          <HeaderBtn className="head-btn">Place order Now</HeaderBtn>
           </Link>
         </HeaderItems>
       </HeaderContent>

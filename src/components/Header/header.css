@@ -1,15 +1,15 @@
 @media screen and (max-width: 540px) {
-
+    
     .h1{
      font-size: 50px;
      width: 350px;
     }
 
     .p{
-     display: none;
+     font-size: 8px;
     }
 
-    button {
+    .head-btn {
      display: none;
     }
 

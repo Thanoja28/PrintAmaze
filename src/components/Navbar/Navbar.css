@@ -94,11 +94,11 @@
   .nav-links-mobile {
     display: none;
   }
-  
-  .menu-icon {
+
+  .fa-bars {
     display: none;
   }
-  
+
   @media screen and (max-width: 540px) {
 
     .navbar{

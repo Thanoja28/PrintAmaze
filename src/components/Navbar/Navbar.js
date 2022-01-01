@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import { NavIcon, Bars } from './NavbarElements';
 
 
-function Navbar() {
+function Navbar({toggle}) {
     const [click, setclick] = useState(false);
     const [Button, setButton] = useState('true');
     const handleClick = () => {setclick(!click)};
@@ -70,6 +71,9 @@ window.addEventListener('resize', showButton);
                     </Button> }
                 </div>
             </nav>
+            <NavIcon>
+              <Bars onClick={toggle}/>
+            </NavIcon>
             </>
     )
 }

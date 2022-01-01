@@ -29,35 +29,37 @@ export const NavLink = styled(Link)`
       color: #d4d700;
       transform: translate(1px, 1px);
     }
-
-    @media screen and (max-width: 400px) {
-        position: absolute;
-        top: 10px;
-        left: 25px;
 `;
 
 export const NavIcon = styled.div`
+@media screen and (max-width: 540px) {
   display: block;
   position: absolute;
   top: 0;
   right: 0;
   cursor: pointer;
   color: #fff;
+  z-index: 1;
+}
+  
 `;
 
 export const Bars = styled(FaForumbee)`
+@media screen and (max-width: 540px) {
   font-size: 2rem;
   transform: translate(-50%, 50%);
+  z-index: 1;
   &:hover {
-    color: #d4d700;
+    color: #926c15;
   }
+}
 `;
 
 export const SearchBar = styled(BsSearch)`
   font-size: 3rem;
   transform: translate(-50%, 50%);
   padding: 0 10px;
-  color:#fff;
+  color: #fff;
   &:hover {
     color: #d4d700;
   }

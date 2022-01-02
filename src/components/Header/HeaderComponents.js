@@ -43,6 +43,8 @@ export const HeaderH1 = styled.h1`
 export const HeaderP = styled.p`
   font-size: clamp(1rem, 1.5vw, 2rem);
   margin-bottom: 2rem;
+  font-style: italic;
+  text-transform: capitalize;
 `;
 
 export const HeaderBtn = styled.button`

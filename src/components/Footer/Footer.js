@@ -16,7 +16,7 @@ const Footer = () => {
           <SocialMediaWrap>
             <div className="footer-content">
               <div>
-                <p>Our fantastic team of professional designers is here to help.
+                <p className="p1 p-color">Our fantastic team of professional designers is here to help.
 
                     Committed to producing high-quality but low-cost goods
 
@@ -24,43 +24,47 @@ const Footer = () => {
               </div>
               <div>
                 <h4 className="head4">SERVICE SUPPORT</h4><br />
-                <p>Tuesday - Thursday: 8:00 a.m.–22:00 p.m</p>
-                <p>Saturday - Sunday: 12:00 p.m.–5:00 p.m</p>
+                <p className="p-color">Tuesday - Thursday:</p> 
+                <p className="p-color">8:00 a.m.–22:00 p.m</p>
+                <p className="p-color">Saturday - Sunday:</p>
+                <p className="p-color"> 12:00 p.m.–5:00 p.m</p>
               </div>
-              <div><br />
-                <h4 className="head4">CUSTOMER SERVICE</h4><br />
-                <p>
+              <div>
+                <h4 className="head4">CUSTOMER SERVICE</h4>
+                <p className="p-color"><br />
                  Help Centre
                 </p>
-                <p>
+                <p className="p-color">
                  Delivery Offer
                 </p>
-                <p>
+                <p className="p-color">
                  Returns Policy
                 </p>
-                <p>
+                <p className="p-color">
                  Product Recalls
                 </p>
-                <p>
+                <p className="p-color">
                  Scam Warnings
                 </p>
-                <p>
+                <p className="p-color">
                  Track Your Order
                 </p><br />
               </div>
+              <div>
               <h4>FOLLOW US</h4><br />
-              <div className="social-icons">
+              <div className="social-icons icons1">
                 <i className="fab fa-facebook"></i>
                 <i className="fab fa-instagram"></i>
                 <i className="fab fa-linkedin"></i>
                 <i class="fab fa-twitter"></i>
               </div><br />
+              </div>
+              </div>
               <hr />
               <div className="footer-bg"><br />
                 <p>Copyright © 2021 ThanoInnovate</p>
                 <p>All rights reserved</p>
                 <p>Design by: ThanojaInnovate.com</p>
-              </div>
               </div>
           </SocialMediaWrap>
         </SocialMedia>

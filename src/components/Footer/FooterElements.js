@@ -11,19 +11,16 @@ export const FooterWrap = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 1300px;
   margin: 0 auto;
   color: #fff;
 `;
 
 export const SocialMedia = styled.section`
-  max-width: 1300px;
   width: 100%;
 `;
 
 export const SocialMediaWrap = styled.div`
   align-items: center;
-  max-width: 1100px;
   margin: 16px auto 0 auto;
   @media screen and (max-width: 820px) {
     flex-direction: column;

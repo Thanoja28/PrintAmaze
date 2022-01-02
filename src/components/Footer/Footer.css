@@ -1,24 +1,38 @@
 .footer-content {
     font-size: 16px;
-    display: inline-flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    margin: 24px;
-    padding: 24px;
-    border-top-left-radius:30px;
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .footer-bg {
     text-align: center;
     letter-spacing: 1px;
+    color: rgba(255, 255, 255, 0.4);
 }
 
 .head4 {
     font-weight: 800;
     letter-spacing: 1px;
+    padding: 4px;
 }
 
 p {
-    letter-spacing: 1px;
+    letter-spacing: 1.2px;
+}
+
+.p-color {
+   color: rgba(255, 255, 255, 0.4);
+   cursor: pointer;
+}
+.p-color:hover {
+    color: #926c15 ;
+}
+
+.icons1 {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.p1 {
+    width: 500px;
 }

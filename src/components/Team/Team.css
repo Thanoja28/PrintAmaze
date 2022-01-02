@@ -1,6 +1,7 @@
 
 .card-container {
     display: flex;
+    justify-content: center;
 }
 
 .card {
@@ -56,7 +57,7 @@
 .h3 {
   text-align: center;
   color: #fff;
-  font-weight: 900;
+  font-weight: 600;
   margin: 16px;
 }
 

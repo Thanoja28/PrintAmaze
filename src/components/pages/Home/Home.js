@@ -13,9 +13,9 @@ function Home() {
         <Header/>
         <Products heading='Choose your Favorite' data={productData} />
         <Products heading='Choose your Design' data={productDataTwo} />
+        <Feature />
         <Team />
         <Carousel />
-        <Feature />
         <Footer />
     </React.Fragment> 
     )

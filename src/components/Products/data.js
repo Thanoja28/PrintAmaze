@@ -29,7 +29,7 @@ export const productData = [
     alt: 'Card',
     name: 'Card Design',
     desc:
-      'Sizes. Paper stocks. Finishes. Now you can create a card as unique as you are designing the awy.',
+      'Sizes. Paper stocks. Finishes. Now you can create a card as unique as you are designing the awy. Make changes to the font',
     price: '£16.00',
     button: 'More Info'
   }
@@ -39,7 +39,7 @@ export const productDataTwo = [
   {
     img: design1,
     alt: 'Card',
-    name: 'Printing card Grey',
+    name: 'Grey Card',
     desc: 
       'Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font',
     price: '£8.99',

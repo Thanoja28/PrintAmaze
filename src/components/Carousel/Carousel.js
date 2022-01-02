@@ -18,9 +18,15 @@ const CarouselComponent = () => {
         <p className="legend">Business Cards</p>
       </div>
       
-      <div>
+      <div className="card-container">
+      <div className="card1">
         <img src="https://images.creativetemplate.net/wp-content/uploads/2019/11/Creative-Modern-Business-Card-0-600x400.jpg" alt="business cards" />
         <p className="legend">Business Cards</p>
+        <p>jsdhfgdjfgjdfghjhdfjhgdjfh
+           jsdhfgdjfgjdfghjhdfjhgdjfh
+           jsdhfgdjfgjdfghjhdfjhgdjfh
+        </p>
+      </div>
       </div>
       </Carousel>
       </>

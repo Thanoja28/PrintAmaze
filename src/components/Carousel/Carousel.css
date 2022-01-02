@@ -2,11 +2,11 @@
   .carousel.carousel-slider {
     margin: 0px auto;
     overflow: visible;
+    background:transparent;
   }
   
   .carousel .slide {
     color: white;
-    background: rgb(0, 0, 0);
   }
   
   .carousel .slide-holder {
@@ -23,7 +23,7 @@
   }
   .carousel .slide iframe {
     margin: 30px;
-    width: 70%;
+    width: 40%;
   }
   .carousel .text-container {
     padding: 30px;
@@ -39,11 +39,17 @@
   }
   
   .carousel .control-dots {
-    bottom: -40px;
+    display: none;
   }
   
   .carousel .thumbs-wrapper {
-    margin: 30px;
-    text-align: center;
+    display: none;
   }
-  
+
+  .carousel .slide .legend {
+    display: none;
+  }
+
+  .card1 {
+    display: flex;
+  }

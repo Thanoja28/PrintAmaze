@@ -10,23 +10,22 @@ const CarouselComponent = () => {
      <Carousel>
       <div>
         <img src="https://www.colourgraphics.com/media/catalog/product/cache/3bad2bb84f147adafcb658fb1cc96a22/b/u/business-card-printing.jpg" alt="business cards" />
-        <p className="legend">Business Cards</p>
+        <p className="legend">Business Cards<br />
+          Printing World has added an extra environmental page offering the definitive word on making print greener. Through this column, readers will have the chance to voice opinions on relevant environmental issues and debunk the environmental myths that pervade the sector.
+        </p>
       </div>
 
       <div>
         <img src="https://i2.wp.com/graphicnova.com/wp-content/uploads/2018/09/Vision-Modern-Business-Card-Template-1.jpg?fit=1500%2C1125&ssl=1" alt="business cards" />
-        <p className="legend">Business Cards</p>
-      </div>
-      
-      <div className="card-container">
-      <div className="card1">
-        <img src="https://images.creativetemplate.net/wp-content/uploads/2019/11/Creative-Modern-Business-Card-0-600x400.jpg" alt="business cards" />
-        <p className="legend">Business Cards</p>
-        <p>jsdhfgdjfgjdfghjhdfjhgdjfh
-           jsdhfgdjfgjdfghjhdfjhgdjfh
-           jsdhfgdjfgjdfghjhdfjhgdjfh
+        <p className="legend">Business Cards<br />
+          Printing World has added an extra environmental page offering the definitive word on making print greener. Through this column, readers will have the chance to voice opinions on relevant environmental issues and debunk the environmental myths that pervade the sector.
         </p>
       </div>
+      
+      <div>
+        <img src="https://images.creativetemplate.net/wp-content/uploads/2019/11/Creative-Modern-Business-Card-0-600x400.jpg" alt="business cards" />
+        <p className="legend">Business Cards <br />
+           Printing World has added an extra environmental page offering the definitive word on making print greener. Through this column, readers will have the chance to voice opinions on relevant environmental issues and debunk the environmental myths that pervade the sector.</p>
       </div>
       </Carousel>
       </>

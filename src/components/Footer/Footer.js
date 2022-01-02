@@ -62,9 +62,9 @@ const Footer = () => {
               </div>
               <hr className="p-color" />
               <div className="footer-bg"><br />
-                <p>Copyright © 2021 ThanoInnovate</p>
+                <p>Copyright © 2021 TRInno</p>
                 <p>All rights reserved</p>
-                <p>Design by: ThanojaInnovate.com</p>
+                <p>Design by: TRInno.com</p>
               </div>
           </SocialMediaWrap>
         </SocialMedia>

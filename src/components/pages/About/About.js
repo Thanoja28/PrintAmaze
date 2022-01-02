@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../../Navbar/Navbar';
 
 import './About.css';
+import Footer from '../../Footer/Footer';
 
 function About() {
     return (
@@ -22,6 +23,7 @@ function About() {
              <button>More Info</button>
            </div>
         </section>
+        <Footer />
         </>
 
     )

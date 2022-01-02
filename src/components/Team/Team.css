@@ -33,6 +33,7 @@
   width: 150px;
   height: 200px;
 }
+
 .img1 {
   width: 100px;
   height: 200px;
@@ -67,25 +68,30 @@
   .card {
     width: 300px;
   }
+
   .card-container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-  } 
+  }
+   
 }
 
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
+
   .card {
     width: 400px;
   }
+
   .card-container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
   }
+  
 }
 
 

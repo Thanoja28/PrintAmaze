@@ -37,7 +37,7 @@ export const Icon = styled.div`
 export const SidebarMenu = styled.div`
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(3, 80px);
+  grid-template-rows: repeat(4, 80px);
   text-align: center;
   @media screen and (max-width: 480px) {
     grid-template-rows: repeat(3, 60px);
@@ -57,7 +57,7 @@ export const SidebarLink = styled(Link)`
   &:hover {
     background:rgba(225, 225, 225, 0.1);
     color:#fff;
-    transform: scale(0.54);
+    transform: scale(0.70);
     transition: 0.8s ease-in-out;
   }
 `;

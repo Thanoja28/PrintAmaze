@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { NavLink as Link } from 'react-router-dom';
-import { FaForumbee } from 'react-icons/fa';
+import { FaBars } from 'react-icons/fa';
 import { BsSearch } from 'react-icons/bs';
 import { BiUser } from 'react-icons/bi';
 import { BsCart4 } from 'react-icons/bs';
@@ -44,7 +44,7 @@ export const NavIcon = styled.div`
   
 `;
 
-export const Bars = styled(FaForumbee)`
+export const Bars = styled(FaBars)`
 @media screen and (max-width: 540px) {
   font-size: 2rem;
   transform: translate(-50%, 50%);

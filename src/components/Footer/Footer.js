@@ -1,6 +1,5 @@
 import React from 'react';
 import './Footer.css';
-import { Link } from 'react-router-dom';
 import '../../components/Navbar/Navbar.css';
 import {
   FooterContainer,
@@ -15,11 +14,6 @@ const Footer = () => {
       <FooterWrap>
         <SocialMedia>
           <SocialMediaWrap>
-           
-            <Link to = '/' className= "navbar-logo">
-              <i className="fab fa-artstation"></i>
-            </Link>
-
             <div className="footer-content">
               <div>
                 <p>Our fantastic team of professional designers is here to help.

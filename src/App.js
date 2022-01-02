@@ -2,7 +2,10 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { GlobalStyle } from './globalStyles';
-import Home from './Home';
+import Home from './components/pages/Home';
+import About from './components/pages/About';
+import Contact from './components/pages/Contact';
+import Services from './components/pages/Services';
 import Form from './components/Form/Form';
 import Formin from './components/Form/Formin';
 import FormSigin  from './components/Form/FormSigin';
@@ -22,6 +25,9 @@ class App extends Component {
        <GlobalStyle />
       <Switch>
         <Route path='/' exact component={Home} />
+        <Route path='/about' exact component={About} />
+        <Route path='/contact' exact component={Contact} />
+        <Route path='/services' exact component={Services} />
         <Route path='/Form' exact component={Form} />
         <Route path='/Searchbar' exact component={Searchbar} />
         <Route path='/Formin' exact component={Formin} />

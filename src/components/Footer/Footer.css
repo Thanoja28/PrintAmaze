@@ -29,10 +29,30 @@ p {
     color: #926c15 ;
 }
 
-.icons1 {
+.fa-color {
     color: rgba(255, 255, 255, 0.4);
 }
 
 .p1 {
     width: 500px;
+}
+
+@media screen and (max-width: 540px) {
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .p1 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .footer-content {
+        width: 650px;
+    }
+
+    .p1{
+        width: 80%;
+    }
 }

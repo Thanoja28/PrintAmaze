@@ -23,15 +23,15 @@ const Footer = () => {
                     graphic design merchandise</p><br />
               </div>
               <div>
-                <h4 className="head4">SERVICE SUPPORT</h4><br />
+                <h4 className="head4">SERVICE SUPPORT</h4>&nbsp;
                 <p className="p-color">Tuesday - Thursday:</p> 
                 <p className="p-color">8:00 a.m.–22:00 p.m</p>
                 <p className="p-color">Saturday - Sunday:</p>
                 <p className="p-color"> 12:00 p.m.–5:00 p.m</p>
-              </div>
+              </div><br />
               <div>
-                <h4 className="head4">CUSTOMER SERVICE</h4>
-                <p className="p-color"><br />
+                <h4 className="head4">CUSTOMER SERVICE</h4>&nbsp;
+                <p className="p-color">
                  Help Centre
                 </p>
                 <p className="p-color">
@@ -52,7 +52,7 @@ const Footer = () => {
               </div>
               <div>
               <h4>FOLLOW US</h4><br />
-              <div className="social-icons icons1">
+              <div className="social-icons fa-color">
                 <i className="fab fa-facebook"></i>
                 <i className="fab fa-instagram"></i>
                 <i className="fab fa-linkedin"></i>
@@ -60,7 +60,7 @@ const Footer = () => {
               </div><br />
               </div>
               </div>
-              <hr />
+              <hr className="p-color" />
               <div className="footer-bg"><br />
                 <p>Copyright © 2021 ThanoInnovate</p>
                 <p>All rights reserved</p>

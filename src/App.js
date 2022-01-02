@@ -2,10 +2,10 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { GlobalStyle } from './globalStyles';
-import Home from './components/pages/Home';
-import About from './components/pages/About';
-import Contact from './components/pages/Contact';
-import Services from './components/pages/Services';
+import Home from './components/pages/Home/Home';
+import About from './components/pages/About/About';
+import Contact from './components/pages/Contact/Contact';
+import Services from './components/pages/Services/Services';
 import Form from './components/Form/Form';
 import Formin from './components/Form/Formin';
 import FormSigin  from './components/Form/FormSigin';

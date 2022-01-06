@@ -38,9 +38,6 @@ function Team() {
             <p className="para">Software Engineer</p>
             </div>
         </div>
-     </div>
-
-     <div className="card-container">
 
         <div className="card">
             <img className="img" src={pro3} alt="Avatar" style={{width:"100%"}} />
@@ -57,7 +54,7 @@ function Team() {
             <p className="para">Game Engineer</p> 
             </div>
         </div>
-     </div>
+        </div>
         </>
     )
 }

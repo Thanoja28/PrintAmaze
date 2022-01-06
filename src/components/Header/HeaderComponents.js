@@ -26,7 +26,6 @@ export const HeaderItems = styled.div`
   color: #fff;
   text-transform: uppercase;
   line-height: 1;
-  font-weight: bold;
   @media screen and (max-width: 650px) {
     width: 100%;
   }

@@ -1,15 +1,17 @@
 
 .card-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    padding: 10px 180px;
+    background: linear-gradient(0deg, rgba(17,17,17,1) 0%, rgba(146,108,21,1) 100%);
 }
 
 .card {
   position: initial !important;
-  padding: 6px;
+  padding: 4px;
   flex-direction: column;
-  /* background: rgba(118, 82, 14, 0.8); */
-  background:rgba(225, 225, 225, 0.1);
+  /* background:rgba(225, 225, 225, 0.1); */
+  background: #111;
   margin: 16px;
   color: #fff;
 }
@@ -59,7 +61,7 @@
   text-align: center;
   color: #fff;
   font-weight: 600;
-  margin: 16px;
+  margin: 24px 0;
 }
 
 /* Media Queries */
@@ -70,6 +72,7 @@
   }
 
   .card-container {
+    padding: 90px;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -4,7 +4,8 @@
     width: 900px;
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
     position: relative;
-    left: -150px;
+    right: 400px;
+    bottom: 250px;
     border-radius: 10px;
     height: 600px;
     display: grid;
@@ -23,14 +24,14 @@
   }
   
   .form-content-left {
-    background: linear-gradient(90deg, rgba(40,54,24,1) 45%, rgba(221,184,146,0.5704656862745099) 100%, rgba(221,184,146,0.7301295518207283) 100%);
+    background: radial-gradient(circle, rgba(149,112,28,1) 37%, rgba(229,229,229,1) 100%);
     border-radius: 10px 0 0 10px;
     position: relative;
   }
 
   .form-img {
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 60%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -57,14 +58,14 @@
   .form-content-right {
     border-radius: 0 10px 10px 0;
     position: relative;
-    background: linear-gradient(90deg, rgb(40, 40, 40) 0%, rgb(17, 17, 17) 100%);
+    background: #111;
   }
   
   .form {
     position: absolute;
     top: 50%;
     left: 50%;
-    /* transform: translate(-50%, -50%); */
+    transform: translate(-50%, -50%);
     width: 90%;
     height: 100%;
     display: flex;
@@ -124,7 +125,7 @@
   
   .form-input-btn:hover {
     cursor: pointer;
-    background: #283618;
+    background: #76520e;
     transition: all 0.4s ease-out;
   }
   
@@ -143,12 +144,28 @@
   }
 
 
-  @media (max-width: 520px) {
-    /* For a screen < 520px, this CSS will be read */
-    .form-container {
-       transform: translate(-50%, -50%);
-       top: 285px;
-       left: 12px;
+  @media screen and (max-width: 540px) {
 
+    /* For a screen < 520px, this CSS will be read */
+
+    .form-container {
+      text-align: justify;
+      padding-left: -20px;
+      width: 850px;
+      height: 850px;
     }
+
+    .form-content-right {
+      right: 150px;
+    }
+
+    .form-content-left {
+      display: none;
+    }
+
+    .form-img {
+      width: 50%;
+      height: 60%;
+    }
+
   }

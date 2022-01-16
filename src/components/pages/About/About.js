@@ -20,7 +20,7 @@ function About() {
                 PrintAmaze has provided quality printing services to the NYC area and beyond since 1896! We specialize in commercial offset printing and digital printing services to cover all your needs. From brochures to banners, we are your one-stop print shop.
                 PrintAmaze has provided quality printing services to the NYC area and beyond since 1896! We specialize in commercial offset printing and digital printing services to cover all your needs. From brochures to banners, we are your one-stop print shop.
              </p>
-             <button>More Info</button>
+             <button className="btn-abt">More Info</button>
            </div>
         </section>
         <Footer />

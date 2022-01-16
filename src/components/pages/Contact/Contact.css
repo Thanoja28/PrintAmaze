@@ -1,0 +1,44 @@
+
+.card-product2{
+   overflow: hidden;
+   padding: 4px;
+   background: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 25px;
+}
+
+.Align-Ring {
+    position: absolute;
+    margin-top: 38 px;
+    margin-left: 11px;
+}
+
+.card-img {
+    width: 50%;
+    height: 54vh;
+}
+
+.form-contact {
+    display: flex;
+    width: 400px;
+    max-height: 90vh;
+    flex-direction: column;
+    background-color: #926c15;
+    justify-content: center;
+    padding: 24px;
+    color: #fff;
+}
+
+.btn-send{
+    padding: 6px;
+    color: #926c15;
+}
+
+.input-form {
+    outline: none;
+    padding: 8px;
+    margin: 4px;
+}
+

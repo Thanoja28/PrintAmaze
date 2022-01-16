@@ -7,7 +7,9 @@ function Contact() {
         <>
         <div className="header">
          <Navbar />
+
             <h2 className="about-h2">Services</h2>
+            
         </div>
        
         <section class="card-product1">
@@ -15,6 +17,7 @@ function Contact() {
            <div class="card-product1-infos">
            </div>
         </section>
+
         <Footer />
         </>
 

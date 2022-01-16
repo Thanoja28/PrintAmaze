@@ -1,5 +1,5 @@
 .header {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
   url(https://images.pexels.com/photos/2983401/pexels-photo-2983401.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
   height: 50vh;
   background-position: center center;
@@ -53,6 +53,20 @@
   padding: 10px;
 }
 
+.btn-abt {
+  outline: none;
+  background-color: #926c15;
+  padding: 12px;
+  color: #fff;
+  border: none;
+  margin: 4px;
+  border-radius: 10px;
+}
+
+.btn-abt:hover {
+  background-color: #76520e;
+}
+
 @media screen and (max-width: 960px) {
     .card-product1 {
       height: 400px;
@@ -71,7 +85,7 @@
     .card-product1 {
         display: flex;
         flex-direction: column;
-        height: 500px;
+        height: 700px;
         padding: 10px;
     }
 }

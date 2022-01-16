@@ -2,7 +2,7 @@
 .card-container {
     display: flex;
     justify-content: space-around;
-    padding: 10px 180px;
+    padding: 10px 120px;
     background: linear-gradient(0deg, rgba(17,17,17,1) 0%, rgba(146,108,21,1) 100%);
 }
 
@@ -10,7 +10,6 @@
   position: initial !important;
   padding: 4px;
   flex-direction: column;
-  /* background:rgba(225, 225, 225, 0.1); */
   background: #111;
   margin: 16px;
   color: #fff;
@@ -32,12 +31,12 @@
 }
 
 .img {
-  width: 150px;
+  width: 200px;
   height: 200px;
 }
 
 .img1 {
-  width: 100px;
+  width: 200px;
   height: 200px;
 }
 
@@ -52,7 +51,7 @@
   font-weight: 300;
 }
 
-.h4{
+.h4 {
   font-weight: 600;
   margin: 4px;
 }
@@ -72,7 +71,7 @@
   }
 
   .card-container {
-    padding: 90px;
+    padding: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,14 +80,15 @@
    
 }
 
-@media (max-width: 540px) {
+@media screen and (max-width: 560px) {
   /* For a screen < 540px, this CSS will be read */
 
   .card {
-    width: 400px;
+    width: 500px;
   }
 
   .card-container {
+    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;

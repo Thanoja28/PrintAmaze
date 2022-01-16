@@ -2,7 +2,6 @@
 .card-product2{
    overflow: hidden;
    padding: 4px;
-   background: white;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -11,8 +10,8 @@
 
 .Align-Ring {
     position: absolute;
-    margin-top: 38 px;
-    margin-left: 11px;
+    margin-top: 38px;
+    margin-left: -50px;
 }
 
 .card-img {
@@ -41,4 +40,42 @@
     padding: 8px;
     margin: 4px;
 }
+
+ @media screen and (max-width: 960px) {
+
+    .Align-Ring {
+        position: absolute;
+        margin-top: 50px;
+        margin-left: -420px;
+    }
+    
+    .card-img {
+        width: 40%;
+        height: 36vh;
+    }
+} 
+
+
+@media screen and (max-width: 540px) {
+
+    .card-product2{
+        flex-direction: column;
+    }
+    .Align-Ring {
+        position: absolute;
+        margin-top: -400px;
+        margin-left: -90px;
+    }
+    
+    .card-img {
+        width: 100%;
+    }
+
+    .form-contact{
+        width: 100%;
+    }
+}
+
+
+
 

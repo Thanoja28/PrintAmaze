@@ -10,18 +10,18 @@
     font-size: 40px;
     position: absolute;
     color: #fff;
-    top: 270px;
+    top: 220px;
     left: 150px;
 }
 
 .card-product1 {
   overflow: hidden;
   height: 250px;
-  padding: 4px;
-  background: white;
+  padding: 16px;
+  background: silver;
   display: flex;
-  align-items: center;
-  margin: 25px;
+  align-content: center;
+  margin: 25px 200px;
 }
 
 .card-product1:hover {
@@ -31,7 +31,7 @@
 
 .card-product1 img {
   height: 100%;
-  width: 120px;
+  width: 20%;
   object-fit: cover;
 }
 
@@ -50,7 +50,8 @@
 }
 
 .card-product1 .card-product1-infos {
-  padding: 10px;
+  width: 70%;
+  padding: 10px 25px;
 }
 
 .btn-abt {

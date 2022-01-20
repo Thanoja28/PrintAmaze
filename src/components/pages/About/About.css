@@ -16,11 +16,11 @@
 
 .card-product1 {
   overflow: hidden;
-  height: 250px;
+  height: 30vh;
   padding: 16px;
   background: silver;
   display: flex;
-  align-content: center;
+  /* align-content: center; */
   margin: 25px 200px;
 }
 
